@@ -1,0 +1,1 @@
+This is the place to put the other player model using Photon. Please do not move, change or delete anything here.
