@@ -17,7 +17,17 @@ A two-player co-located collaborative escape-room game designed for immersive le
 **Critter Escape: VR Adventure** is a virtual reality educational game where two players cooperate to solve a set of problems and escape from a dungeon-like environment.  
 Players are initialized as **Zeke (fox)** and **Yuki (rabbit)**, and can start together from the Lobby scene.
 
+<p align="center">
+  <img src="./VROverview.png" alt="VR Overview" width="48%"/>
+  <img src="./MROverview.png" alt="AR Overview" width="48%"/>
+</p>
+
+<p align="center">
+  <b>Left:</b> VR Overview &nbsp;&nbsp; | &nbsp;&nbsp; <b>Right:</b> AR Overview
+</p>
+
 ---
+
 
 ## 🧪 Research Context (Accepted Paper)
 This project was used in a between-subjects study comparing **VR vs. AR** for **unfamiliar pairs** collaborating in an escape-room game.  
