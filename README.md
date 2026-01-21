@@ -29,7 +29,7 @@ Players are initialized as **Zeke (fox)** and **Yuki (rabbit)**, and can start t
 ---
 
 
-## 🧪 Research Context (Accepted Paper)
+## 🧪 Research Context (IEEE VR 2026 Accepted)
 This project was used in a between-subjects study comparing **VR vs. AR** for **unfamiliar pairs** collaborating in an escape-room game.  
 The VR and AR versions share identical task goals and game logic; key differences include:
 - **VR**: stationary experience, controller-based locomotion
