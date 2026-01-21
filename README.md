@@ -61,6 +61,7 @@ The VR and AR versions share identical task goals and game logic; key difference
 ---
 
 ## 🚀 Quick Start (Run the Build)
+Detailed User Manual: [User Manual.pdf](./User%20Manual.pdf)
 > This section assumes you are running the **prebuilt executable** version.
 
 1. Download and extract the compressed package (e.g., `GRPSoftware.Team16.zip`).
