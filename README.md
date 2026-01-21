@@ -1,7 +1,17 @@
-# Critter Escape: VR Adventure 🦊🐰
-A two-player co-located collaborative escape-room game designed for immersive learning and research on social presence and engagement in **Virtual Reality (VR)** and **Augmented Reality (AR)**.
+# Differential Effects of Virtual and Augmented Reality on Social Presence and Engagement in Collaborative Gaming for Unfamiliar Users
+This repository is the official implementation of paper [**Differential Effects of Virtual and Augmented Reality on Social Presence and Engagement in Collaborative Gaming for Unfamiliar Users**](h) published in IEEE-VR 2026. This repository contains the code for an experiment examining how Virtual Reality (VR) and Augmented Reality (AR) environments influence social presence and collaborative engagement, specifically among unfamiliar users. While previous studies have explored collaborative tasks in immersive XR environments, little research has focused on the differential effects of VR and AR on social dynamics and collaboration. The study at the heart of this repository compares two immersive technologies using a controlled escape room game that features three collaborative tasks. The key distinction between the VR and AR conditions is the mode of interaction: the VR condition is stationary, requiring users to stay in place, while the AR condition necessitates physical movement between rooms.
 
-> This repository contains the project assets and/or builds for **Critter Escape: VR Adventure**, a multiplayer VR educational game featuring STEM-themed mini-games and asymmetric collaboration mechanics.
+<!-- <div align="center">
+    <a href="https://ieeexplore.ieee.org/document/10494181" target="_blank">
+    <img src="https://img.shields.io/badge/ieee-%2300629B.svg?&style=for-the-badge&logo=ieee&logoColor=white"></a>
+    <a href="https://arxiv.org/abs/2402.07677" target="_blank">
+    <img src="https://img.shields.io/badge/arxiv-%23B31B1B.svg?&style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper arXiv"></a>
+</div> -->
+<img width="1207" height="515" alt="Experiment" src="https://github.com/user-attachments/assets/bbb2f76f-0357-43e8-89ce-1aef42bac04c" />
+
+# Critter Escape 🦊🐰
+A two-player co-located collaborative escape-room game designed for immersive learning and research on social presence and engagement in **Virtual Reality (VR)** and **Augmented Reality (AR)**.
+a multiplayer VR educational game featuring STEM-themed mini-games and asymmetric collaboration mechanics.
 
 ---
 
@@ -18,8 +28,8 @@ A two-player co-located collaborative escape-room game designed for immersive le
 Players are initialized as **Zeke (fox)** and **Yuki (rabbit)**, and can start together from the Lobby scene.
 
 <p align="center">
-  <img src="./VROverview.png" alt="VR Overview" width="48%"/>
-  <img src="./MROverview.png" alt="AR Overview" width="48%"/>
+  <img src="Images/VROverview.png" alt="VR Overview" width="48%"/>
+  <img src="Images/MROverview.png" alt="AR Overview" width="48%"/>
 </p>
 
 <p align="center">
@@ -107,7 +117,8 @@ This game includes three collaborative mini-games used in the VR/AR comparison s
 
 ## 📝 Citation
 
-This repository is associated with a manuscript prepared for **IEEE VR 2026**. Final bibliographic details (e.g., proceedings info, DOI, page numbers) are **TBD**.
+If you use this code for your research, please consider citing: 
+Final bibliographic details (e.g., proceedings info, DOI, page numbers) are **TBD**.
 
 ```bibtex
 @misc{critterescape_vrar_ieeevr2026_tbd,
