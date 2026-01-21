@@ -1,6 +1,19 @@
-# Differential Effects of Virtual and Augmented Reality on Social Presence and Engagement in Collaborative Gaming for Unfamiliar Users
-This repository is the official implementation of paper [**Differential Effects of Virtual and Augmented Reality on Social Presence and Engagement in Collaborative Gaming for Unfamiliar Users**](h) published in IEEE-VR 2026. This repository contains the code for an experiment examining how Virtual Reality (VR) and Augmented Reality (AR) environments influence social presence and collaborative engagement, specifically among unfamiliar users. While previous studies have explored collaborative tasks in immersive XR environments, little research has focused on the differential effects of VR and AR on social dynamics and collaboration. The study at the heart of this repository compares two immersive technologies using a controlled escape room game that features three collaborative tasks. The key distinction between the VR and AR conditions is the mode of interaction: the VR condition is stationary, requiring users to stay in place, while the AR condition necessitates physical movement between rooms.
+<div align="center">
+<h1>Critter Escape 🦊🐰 </h1>
+<h3> Differential Effects of Virtual and Augmented Reality on Social Presence and Engagement in Collaborative Gaming for Unfamiliar Users [IEEE-VR 2026] </h3>
 
+Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen FAN, Boon Giin Lee, Matthew Pike, Alejandro Guerra-Manzanares
+
+<p align='center'>
+  <b>
+    <a href="https://0">Paper</a>
+    |
+    <a href="https://github.com/ssygc1/CritterEscape">Code</a> 
+  </b>
+</p> 
+</div>
+
+## 📷 Introduction
 <!-- <div align="center">
     <a href="https://ieeexplore.ieee.org/document/10494181" target="_blank">
     <img src="https://img.shields.io/badge/ieee-%2300629B.svg?&style=for-the-badge&logo=ieee&logoColor=white"></a>
@@ -9,19 +22,11 @@ This repository is the official implementation of paper [**Differential Effects 
 </div> -->
 <img width="1207" height="515" alt="Experiment" src="https://github.com/user-attachments/assets/bbb2f76f-0357-43e8-89ce-1aef42bac04c" />
 
-# Critter Escape 🦊🐰
-A two-player co-located collaborative escape-room game designed for immersive learning and research on social presence and engagement in **Virtual Reality (VR)** and **Augmented Reality (AR)**.
-a multiplayer VR educational game featuring STEM-themed mini-games and asymmetric collaboration mechanics.
-
----
-
 ## ✨ Highlights
 - **Two-player co-located collaboration** (unfamiliar pairs supported)
 - **Escape-room gameplay** with multiple STEM-flavored puzzles (e.g., biology, arithmetic, geometry)
 - **Asymmetric task design** to encourage communication and interdependence (informational / positional / visual asymmetry)
 - Designed for **comfortable experience** and beginner-friendly interaction
-
----
 
 ## 🎮 Game Overview
 **Critter Escape: VR Adventure** is a virtual reality educational game where two players cooperate to solve a set of problems and escape from a dungeon-like environment.  
@@ -36,28 +41,17 @@ Players are initialized as **Zeke (fox)** and **Yuki (rabbit)**, and can start t
   <b>Left:</b> VR Overview &nbsp;&nbsp; | &nbsp;&nbsp; <b>Right:</b> AR Overview
 </p>
 
----
+## 🧩 Mini-Games & Collaboration Mechanics
+This game includes three collaborative mini-games used in the VR/AR comparison study:
 
-
-## 🧪 Research Context (IEEE VR 2026 Accepted)
-This project was used in a between-subjects study comparing **VR vs. AR** for **unfamiliar pairs** collaborating in an escape-room game.  
-The VR and AR versions share identical task goals and game logic; key differences include:
-- **VR**: stationary experience, controller-based locomotion
-- **AR**: requires **physical movement** between rooms
-- Teammate representation differs between modalities (VR: avatar only; AR: real body + avatar overlay)
-
-**Main findings (high level):**
-- VR pairs reported stronger **immersion** and **flow**
-- AR pairs showed greater **contextual awareness** and **behavioral coordination**
-- Cybersickness profiles differed across conditions
-
-📄 Paper (IEEE VR 2026 manuscript): Differential Effects of Virtual and Augmented Reality on Social Presence and Engagement in Collaborative Gaming for Unfamiliar Users (Submission ID: 1813; bibliographic details TBD)
-> If you use this project in academic work, please cite the paper (BibTeX below).
-
----
-
+- **Mini-Game 1: Animal Identification Puzzle**  
+  Informational asymmetry: each player sees clues needed by the other.
+- **Mini-Game 2: Potion Brewing Puzzle**  
+  Positional asymmetry: players are constrained to different locations/roles to proceed.
+- **Mini-Game 3: Shape Alignment Puzzle**  
+  Visual asymmetry: each player sees unique parts of the solution and must communicate.
+  
 ## ✅ Requirements
-
 ### Hardware
 - **2× Meta Quest 3 headsets + controllers** (multiplayer co-located setup)
 - **2× Windows 10/11 PCs** with **RTX 2050 GPU or above**
@@ -67,8 +61,6 @@ The VR and AR versions share identical task goals and game logic; key difference
 ### Software
 - Oculus PC app / Quest Link or any **OpenXR-compatible** platform
   - Meta tutorial: https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/
-
----
 
 ## 🚀 Quick Start (Run the Build)
 Detailed User Manual: [User Manual.pdf](./User%20Manual.pdf)
@@ -84,41 +76,11 @@ Detailed User Manual: [User Manual.pdf](./User%20Manual.pdf)
 **Important note:**  
 To restart the game, ensure **all running instances are fully closed**, otherwise the server may prevent a new instance from joining the same room.
 
----
 
-## 🎛 Controller Guide (Meta Quest)
-- **Move**: Left thumbstick
-- **Look / Aim**: Right thumbstick
-- **Grab / Interact**: Grip buttons
-- **UI actions / Pinch-like interactions**: Triggers
+  
 
----
-
-## 🧩 Mini-Games & Collaboration Mechanics
-This game includes three collaborative mini-games used in the VR/AR comparison study:
-
-- **Mini-Game 1: Animal Identification Puzzle**  
-  Informational asymmetry: each player sees clues needed by the other.
-- **Mini-Game 2: Potion Brewing Puzzle**  
-  Positional asymmetry: players are constrained to different locations/roles to proceed.
-- **Mini-Game 3: Shape Alignment Puzzle**  
-  Visual asymmetry: each player sees unique parts of the solution and must communicate.
-
-
----
-
-## 📦 What’s in This Repository?
-- `Builds/` (Windows executable build)
-- `Assets/` (Unity project assets)
-- `Docs/` (user manual, figures, etc.)
-
-
----
-
-## 📝 Citation
-
-If you use this code for your research, please consider citing: 
-Final bibliographic details (e.g., proceedings info, DOI, page numbers) are **TBD**.
+## 🌟 Citation
+If you are interested in our work, please consider giving a 🌟 and citing our work below.
 
 ```bibtex
 @misc{critterescape_vrar_ieeevr2026_tbd,
@@ -128,3 +90,7 @@ Final bibliographic details (e.g., proceedings info, DOI, page numbers) are **TB
   note         = {Submission ID: 1813. Final bibliographic details TBD.},
   year         = {2026}
 }
+```
+
+## 💡Acknowledgment
+Thanks to previous open-sourced repo: 
