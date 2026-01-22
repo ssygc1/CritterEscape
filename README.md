@@ -24,6 +24,16 @@ Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen FAN, Boon Gii
 
 This paper introduces CritterEscape, an immersive collaborative puzzle game with asymmetric roles in both VR and AR. This project builds upon the foundational research presented in our paper: [Exploring Asymmetric Collaboration in VR vs. AR: A Study of Immersive Puzzle Game Design](https://ieeexplore.ieee.org/document/10937399). This study expanded the design that enables a direct comparison of how VR and AR modalities affect user experience and cooperative behavior, allowing for systematic observation of how each medium’s characteristics modulate social interaction under consistent task conditions. Specifically, we investigate how immersive VR and AR environments influence social presence, task engagement, and collaborative dynamicsin a cooperative puzzle game setting, focusing particularly on interactions between unfamiliar participants.
 
+
+## 📋 Table of Contents
+- [Introduction](#-introduction)
+- [Game Overview](#-game-overview)
+- [Mini-Games & Collaboration Mechanics](#-mini-games--collaboration-mechanics)
+- [Requirements](#-requirements)
+- [Quick Start](#-quick-start-run-the-build)
+- [Citation](#-citation)
+- [Acknowledgment](#-Acknowledgment)
+
 ## 🎮 Game Overview
 **CritterEscape** is a multi-player game designed to increase student learning motivation through social interaction. Players take on distinct roles (Zeke 🦊 and Yuki 🐰) and must communicate effectively to complete collaborative tasks. It consisted of three mini-games with different difficulty levels, based on the escape room game mechanism, where students collaborated to solve puzzles to proceed to the next game. The puzzles primarily involved STEM knowledge, aiming to promote critical thinking and problem-solving skills. 
 
@@ -86,5 +96,5 @@ If you are interested in our work, please consider giving a 🌟 and citing our 
 }
 ```
 
-## 💡Acknowledgment
+## 💡 Acknowledgment
 Thanks to previous open-sourced repo: 
