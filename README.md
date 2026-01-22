@@ -25,8 +25,7 @@ Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen FAN, Boon Gii
 This paper introduces CritterEscape, an immersive collaborative puzzle game with asymmetric roles in both VR and AR. This project builds upon the foundational research presented in our paper: [Exploring Asymmetric Collaboration in VR vs. AR: A Study of Immersive Puzzle Game Design](https://ieeexplore.ieee.org/document/10937399). This study expanded the design that enables a direct comparison of how VR and AR modalities affect user experience and cooperative behavior, allowing for systematic observation of how each medium’s characteristics modulate social interaction under consistent task conditions. Specifically, we investigate how immersive VR and AR environments influence social presence, task engagement, and collaborative dynamicsin a cooperative puzzle game setting, focusing particularly on interactions between unfamiliar participants.
 
 ## 🎮 Game Overview
-**Critter Escape: VR Adventure** is a virtual reality educational game where two players cooperate to solve a set of problems and escape from a dungeon-like environment.  
-Players are initialized as **Zeke (fox)** and **Yuki (rabbit)**, and can start together from the Lobby scene.
+**CritterEscape** is a multi-player game designed to increase student learning motivation through social interaction. Players take on distinct roles (Zeke 🦊 and Yuki 🐰) and must communicate effectively to complete collaborative tasks. It consisted of three mini-games with different difficulty levels, based on the escape room game mechanism, where students collaborated to solve puzzles to proceed to the next game. The puzzles primarily involved STEM knowledge, aiming to promote critical thinking and problem-solving skills. 
 
 <p align="center">
   <img src="Images/VROverview.png" alt="VR Overview" width="48%"/>
@@ -36,6 +35,7 @@ Players are initialized as **Zeke (fox)** and **Yuki (rabbit)**, and can start t
 <p align="center">
   <b>Left:</b> VR Overview &nbsp;&nbsp; | &nbsp;&nbsp; <b>Right:</b> AR Overview
 </p>
+
 
 ## 🧩 Mini-Games & Collaboration Mechanics
 This game includes three collaborative mini-games used in the VR/AR comparison study:
@@ -47,33 +47,31 @@ This game includes three collaborative mini-games used in the VR/AR comparison s
 - **Mini-Game 3: Shape Alignment Puzzle**  
   Visual asymmetry: each player sees unique parts of the solution and must communicate.
   
-## ✅ Requirements
+
+## ✅ Requirements 
 ### Hardware
-- **2× Meta Quest 3 headsets + controllers** (multiplayer co-located setup)
-- **2× Windows 10/11 PCs** with **RTX 2050 GPU or above**
+- **2× Meta Quest 3 headsets + controllers**
+- **2× Windows 10/11 PCs** with **RTX 2050 GPU or above** 
 - **2× USB 3.0+ cables** (PC ↔ headset)
 - **Stable Wi-Fi network** (multiplayer required)
 
 ### Software
-- Oculus PC app / Quest Link or any **OpenXR-compatible** platform
-  - Meta tutorial: https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/
+- Meta Horizon Link
+  - Windows PC requirements for Meta Horizon Link : https://www.meta.com/help/quest/140991407990979/
+- Unity 
 
 ## 🚀 Quick Start (Run the Build)
 Detailed User Manual: [User Manual](Documents/User%20Manual.pdf)
 > This section assumes you are running the **prebuilt executable** version.
 
-1. Download and extract the compressed package (e.g., `GRPSoftware.Team16.zip`).
-2. Go to: `/GRPSoftware.Team16/Builds`
-3. Connect each Quest 3 to a PC via Oculus / OpenXR platform, and enable **Quest Link** in the headset.
-4. Launch `STEM Game.exe` on **both PCs**.
-5. After launching, players will be initialized as **Zeke (fox)** and **Yuki (rabbit)** in the Lobby.
-6. When both players are in the Lobby, either player can point at **Start** and press **Trigger** to begin.
+1. Go to: [/CritterEscape-VR/Builds](/CritterEscape-VR/Builds)
+2. Connect each Quest 3 to a PC via Oculus / OpenXR platform, and enable **Quest Link** in the headset.
+3. Launch `STEM Game.exe` on **both PCs**.
+4. After launching, players will be initialized as **Zeke 🦊** and **Yuki 🐰** in the Lobby.
+5. When both players are in the Lobby, either player can point at **Start** and press **Trigger** to begin.
 
 **Important note:**  
 To restart the game, ensure **all running instances are fully closed**, otherwise the server may prevent a new instance from joining the same room.
-
-
-  
 
 ## 🌟 Citation
 If you are interested in our work, please consider giving a 🌟 and citing our work below.
