@@ -1,6 +1,6 @@
 <div align="center">
-<h1>Critter Escape 🦊🐰 </h1>
-<h3> Differential Effects of Virtual and Augmented Reality on Social Presence and Engagement in Collaborative Gaming for Unfamiliar Users [IEEE-VR 2026] </h3>
+<h1>CritterEscape 🦊🐰 </h1>
+<h3> Differential Effects of Virtual and Augmented Reality on Social Presence and Engagement in Collaborative Gaming for Unfamiliar Users [<a href="https://ieeevr.org/2026/">IEEE-VR 2026</a>] </h3>
 
 Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen FAN, Boon Giin Lee, Matthew Pike, Alejandro Guerra-Manzanares
 
@@ -22,11 +22,7 @@ Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen FAN, Boon Gii
 </div> -->
 <img width="1207" height="515" alt="Experiment" src="https://github.com/user-attachments/assets/bbb2f76f-0357-43e8-89ce-1aef42bac04c" />
 
-## ✨ Highlights
-- **Two-player co-located collaboration** (unfamiliar pairs supported)
-- **Escape-room gameplay** with multiple STEM-flavored puzzles (e.g., biology, arithmetic, geometry)
-- **Asymmetric task design** to encourage communication and interdependence (informational / positional / visual asymmetry)
-- Designed for **comfortable experience** and beginner-friendly interaction
+This paper introduces CritterEscape, an immersive collaborative puzzle game with asymmetric roles in both VR and AR. This project builds upon the foundational research presented in our paper: [Exploring Asymmetric Collaboration in VR vs. AR: A Study of Immersive Puzzle Game Design](https://ieeexplore.ieee.org/document/10937399). This study expanded the design that enables a direct comparison of how VR and AR modalities affect user experience and cooperative behavior, allowing for systematic observation of how each medium’s characteristics modulate social interaction under consistent task conditions. Specifically, we investigate how immersive VR and AR environments influence social presence, task engagement, and collaborative dynamicsin a cooperative puzzle game setting, focusing particularly on interactions between unfamiliar participants.
 
 ## 🎮 Game Overview
 **Critter Escape: VR Adventure** is a virtual reality educational game where two players cooperate to solve a set of problems and escape from a dungeon-like environment.  
@@ -63,7 +59,7 @@ This game includes three collaborative mini-games used in the VR/AR comparison s
   - Meta tutorial: https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/
 
 ## 🚀 Quick Start (Run the Build)
-Detailed User Manual: [User Manual.pdf](./User%20Manual.pdf)
+Detailed User Manual: [User Manual](./User%20Manual.pdf)
 > This section assumes you are running the **prebuilt executable** version.
 
 1. Download and extract the compressed package (e.g., `GRPSoftware.Team16.zip`).
