@@ -59,7 +59,7 @@ This game includes three collaborative mini-games used in the VR/AR comparison s
   - Meta tutorial: https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/
 
 ## 🚀 Quick Start (Run the Build)
-Detailed User Manual: [User Manual](./User%20Manual.pdf)
+Detailed User Manual: [User Manual](Documents/User%20Manual.pdf)
 > This section assumes you are running the **prebuilt executable** version.
 
 1. Download and extract the compressed package (e.g., `GRPSoftware.Team16.zip`).
