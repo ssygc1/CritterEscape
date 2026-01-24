@@ -18,7 +18,6 @@ Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen Fan, Boon Gii
 - [Introduction](#-introduction)
 - [Game Overview](#-game-overview)
 - [Mini-Games & Collaboration Mechanics](#-mini-games--collaboration-mechanics)
-- [Supported Platforms](#-supported-platforms)
 - [User Manual](#-User-Manual)
 - [Citation](#-citation)
 
@@ -54,27 +53,18 @@ This game includes three collaborative mini-games used in the VR/AR study:
   Positional asymmetry: players are constrained to different locations/roles to proceed.
 - **Mini-Game 3: Shape Alignment Puzzle**  
   Visual asymmetry: each player sees unique parts of the solution and must communicate.
-  
-
-## 🕹️ Supported Platforms
-
-**CritterEscape** supports both VR and AR platforms:
-
-- **VR Version**
-  Built with `Unity XR Interaction Toolkit (XRI)` and `Photon Fusion` networking framework
-- **AR Version**
-  Built with `Meta SDK` and `Mirror` networking framework
-
 
 
 ## ✅ User Manual
 
-> **VR Version**  
-> Detailed requirements and setup instructions:  
+> ### VR Version
+> Built with `Unity XR Interaction Toolkit (XRI)` and the `Photon Fusion` networking framework.  
+> **Setup & Requirements:**  
 > [CritterEscape-VR/README.md](CritterEscape-VR/README.md)
 
-> **AR Version**  
-> Detailed requirements and setup instructions:  
+> ### AR Version
+> Built with the `Meta SDK` and the `Mirror` networking framework.  
+> **Setup & Requirements:**  
 > [CritterEscape-AR/README.md](CritterEscape-AR/README.md)
 
 
