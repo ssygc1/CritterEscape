@@ -50,12 +50,11 @@ This game includes three collaborative mini-games used in the VR/AR study:
 
 - **Mini-Game 1: Animal Identification Puzzle**  
   Informational asymmetry: each player sees clues needed by the other.
-
 - **Mini-Game 2: Potion Brewing Puzzle**  
   Positional asymmetry: players are constrained to different locations/roles to proceed.
-
 - **Mini-Game 3: Shape Alignment Puzzle**  
   Visual asymmetry: each player sees unique parts of the solution and must communicate.
+  
 
 ## 🕹️ Supported Platforms
 
@@ -63,7 +62,6 @@ This game includes three collaborative mini-games used in the VR/AR study:
 
 - **VR Version**
   Built with `Unity XR Interaction Toolkit (XRI)` and `Photon Fusion` networking framework
-
 - **AR Version**
   Built with `Meta SDK` and `Mirror` networking framework
 
