@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/CritterEscape-AR/CritterEscape-AR.unity
+    path: Assets/CritterEscape-AR/Scene/CritterEscape-AR.unity
     guid: e7f2357060dd24f24b410a79718e5627
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7feca0a34bcc5e44ea37ce2f1f755007, type: 2}
