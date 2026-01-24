@@ -1,8 +1,8 @@
 <div align="center">
-<h1>CritterEscape 🦊🐰 </h1>
-<h3> Differential Effects of Virtual and Augmented Reality on Social Presence and Engagement in Collaborative Gaming for Unfamiliar Users [<a href="https://ieeevr.org/2026/">IEEE-VR 2026</a>] </h3>
+<h1>CritterEscape 🦊🐰</h1>
+<h3>Differential Effects of Virtual and Augmented Reality on Social Presence and Engagement in Collaborative Gaming for Unfamiliar Users [<a href="https://ieeevr.org/2026/">IEEE VR 2026</a>]</h3>
 
-Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen FAN, Boon Giin Lee, Matthew Pike, Alejandro Guerra-Manzanares
+Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen Fan, Boon Giin Lee, Matthew Pike, Alejandro Guerra-Manzanares
 
 <p align='center'>
   <b>
@@ -10,36 +10,51 @@ Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen FAN, Boon Gii
     |
     <a href="https://github.com/ssygc1/CritterEscape">Code</a> 
   </b>
-</p> 
+</p>
 </div>
 
-## 📷 Introduction
-<!-- <div align="center">
-    <a href="https://ieeexplore.ieee.org/document/10494181" target="_blank">
-    <img src="https://img.shields.io/badge/ieee-%2300629B.svg?&style=for-the-badge&logo=ieee&logoColor=white"></a>
-    <a href="https://arxiv.org/abs/2402.07677" target="_blank">
-    <img src="https://img.shields.io/badge/arxiv-%23B31B1B.svg?&style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper arXiv"></a>
-</div> -->
-<img width="1207" height="515" alt="Experiment" src="https://github.com/user-attachments/assets/bbb2f76f-0357-43e8-89ce-1aef42bac04c" />
-
-This paper introduces CritterEscape, an immersive collaborative puzzle game with asymmetric roles in both VR and AR. This project builds upon the foundational research presented in our paper: [Exploring Asymmetric Collaboration in VR vs. AR: A Study of Immersive Puzzle Game Design](https://ieeexplore.ieee.org/document/10937399). This study expanded the design that enables a direct comparison of how VR and AR modalities affect user experience and cooperative behavior, allowing for systematic observation of how each medium’s characteristics modulate social interaction under consistent task conditions. Specifically, we investigate how immersive VR and AR environments influence social presence, task engagement, and collaborative dynamicsin a cooperative puzzle game setting, focusing particularly on interactions between unfamiliar participants.
-
+---
 
 ## 📋 Table of Contents
+
 - [Introduction](#-introduction)
 - [Game Overview](#-game-overview)
+- [Supported Platforms](#-supported-platforms)
 - [Mini-Games & Collaboration Mechanics](#-mini-games--collaboration-mechanics)
-- [Requirements](#-requirements)
-- [Quick Start](#-quick-start-run-the-build)
+- [User Manual](#-User-Manual)
 - [Citation](#-citation)
-- [Acknowledgment](#-Acknowledgment)
 
-## 🎮 Game Overview
-**CritterEscape** is a multi-player game designed to increase student learning motivation through social interaction. Players take on distinct roles (Zeke 🦊 and Yuki 🐰) and must communicate effectively to complete collaborative tasks. It consisted of three mini-games with different difficulty levels, based on the escape room game mechanism, where students collaborated to solve puzzles to proceed to the next game. The puzzles primarily involved STEM knowledge, aiming to promote critical thinking and problem-solving skills. 
+
+## 📷 Introduction
 
 <p align="center">
-  <img src="Images/VROverview.png" alt="VR Overview" width="48%"/>
-  <img src="Images/MROverview.png" alt="AR Overview" width="48%"/>
+  <img src="Images/Experiment.png" alt="Experiment Overview" width="80%" />
+</p>
+
+**CritterEscape** is an immersive collaborative puzzle game with asymmetric roles in both VR and AR. This project builds upon our previous research: [Exploring Asymmetric Collaboration in VR vs. AR: A Study of Immersive Puzzle Game Design](https://ieeexplore.ieee.org/document/10937399). The study enables direct comparison of how VR and AR modalities affect user experience and cooperative behavior, allowing systematic observation of social interaction under consistent task conditions. Specifically, we investigate how immersive VR and AR environments influence social presence, task engagement, and collaborative dynamics in a cooperative puzzle game setting, focusing on interactions between unfamiliar participants.
+
+
+## 🎮 Game Overview
+
+**CritterEscape** is a multiplayer educational game designed to increase student learning motivation through social interaction. Players take on distinct roles—Zeke 🦊 and Yuki 🐰—and must communicate effectively to complete collaborative tasks. It consists of three mini-games of varying difficulty levels, based on an escape-room mechanism, in which students collaborate to solve puzzles and progress to the next game. The puzzles primarily involve STEM knowledge, aiming to promote critical thinking and problem-solving skills.
+
+
+
+## 🕹️ Supported Platforms
+
+**CritterEscape** supports both VR and AR platforms:
+
+- **VR Version**
+  - Built with `Unity XR Interaction Toolkit (XRI)`
+  - Multiplayer powered by `Photon Fusion` networking framework
+
+- **AR Version**
+  - Built with `Meta SDK`
+  - Multiplayer powered by `Mirror` networking framework
+
+<p align="center">
+  <img src="Images/VROverview.png" alt="VR Overview" width="48%" />
+  <img src="Images/MROverview.png" alt="AR Overview" width="48%" />
 </p>
 
 <p align="center">
@@ -48,53 +63,40 @@ This paper introduces CritterEscape, an immersive collaborative puzzle game with
 
 
 ## 🧩 Mini-Games & Collaboration Mechanics
-This game includes three collaborative mini-games used in the VR/AR comparison study:
+
+This game includes three collaborative mini-games used in the VR/AR study:
 
 - **Mini-Game 1: Animal Identification Puzzle**  
   Informational asymmetry: each player sees clues needed by the other.
+
 - **Mini-Game 2: Potion Brewing Puzzle**  
   Positional asymmetry: players are constrained to different locations/roles to proceed.
+
 - **Mini-Game 3: Shape Alignment Puzzle**  
   Visual asymmetry: each player sees unique parts of the solution and must communicate.
-  
 
-## ✅ Requirements 
-### Hardware
-- **2× Meta Quest 3 headsets + controllers**
-- **2× Windows 10/11 PCs** with **RTX 2050 GPU or above** 
-- **2× USB 3.0+ cables** (PC ↔ headset)
-- **Stable Wi-Fi network** (multiplayer required)
 
-### Software
-- Meta Horizon Link
-  - Windows PC requirements for Meta Horizon Link : https://www.meta.com/help/quest/140991407990979/
-- Unity 
+## ✅ User Manual
 
-## 🚀 Quick Start (Run the Build)
-Detailed User Manual: [User Manual](Documents/User%20Manual.pdf)
-> This section assumes you are running the **prebuilt executable** version.
+### VR Version
+For detailed setup instructions and requirements for the VR version, please see:  
+[CritterEscape-VR/README.md](CritterEscape-VR/README.md)
 
-1. Go to: [/CritterEscape-VR/Builds](/CritterEscape-VR/Builds)
-2. Connect each Quest 3 to a PC via Oculus / OpenXR platform, and enable **Quest Link** in the headset.
-3. Launch `STEM Game.exe` on **both PCs**.
-4. After launching, players will be initialized as **Zeke 🦊** and **Yuki 🐰** in the Lobby.
-5. When both players are in the Lobby, either player can point at **Start** and press **Trigger** to begin.
+### AR Version
+For detailed setup instructions and requirements for the AR version, please see:  
+[CritterEscape-AR/README.md](CritterEscape-AR/README.md)
 
-**Important note:**  
-To restart the game, ensure **all running instances are fully closed**, otherwise the server may prevent a new instance from joining the same room.
 
 ## 🌟 Citation
-If you are interested in our work, please consider giving a 🌟 and citing our work below.
+
+If you use or reference this work, please consider citing:
 
 ```bibtex
-@misc{critterescape_vrar_ieeevr2026_tbd,
+@misc{critterescape_vrar_ieeevr2026,
   title        = {Differential Effects of Virtual and Augmented Reality on Social Presence and Engagement in Collaborative Gaming for Unfamiliar Users},
-  author       = {TBD},
+  author       = {Lijie Zheng and Guoyueyang Cheng and Shaoteng Ke and Jiachen Yuan and Yuchen Fan and Boon Giin Lee and Matthew Pike and Alejandro Guerra-Manzanares},
   howpublished = {Manuscript prepared for IEEE VR 2026},
   note         = {Submission ID: 1813. Final bibliographic details TBD.},
-  year         = {2026}
+  year         = {2026},
+  url          = {https://ieeevr.org/2026/}
 }
-```
-
-## 💡 Acknowledgment
-Thanks to previous open-sourced repo: 
