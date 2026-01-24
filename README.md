@@ -13,14 +13,12 @@ Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen Fan, Boon Gii
 </p>
 </div>
 
----
-
 ## 📋 Table of Contents
 
 - [Introduction](#-introduction)
 - [Game Overview](#-game-overview)
-- [Supported Platforms](#-supported-platforms)
 - [Mini-Games & Collaboration Mechanics](#-mini-games--collaboration-mechanics)
+- [Supported Platforms](#-supported-platforms)
 - [User Manual](#-User-Manual)
 - [Citation](#-citation)
 
@@ -28,29 +26,14 @@ Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen Fan, Boon Gii
 ## 📷 Introduction
 
 <p align="center">
-  <img src="Images/Experiment.png" alt="Experiment Overview" width="80%" />
+  <img src="Images/Experiment.png" alt="Paper Overview" width="80%" />
 </p>
 
-**CritterEscape** is an immersive collaborative puzzle game with asymmetric roles in both VR and AR. This project builds upon our previous research: [Exploring Asymmetric Collaboration in VR vs. AR: A Study of Immersive Puzzle Game Design](https://ieeexplore.ieee.org/document/10937399). The study enables direct comparison of how VR and AR modalities affect user experience and cooperative behavior, allowing systematic observation of social interaction under consistent task conditions. Specifically, we investigate how immersive VR and AR environments influence social presence, task engagement, and collaborative dynamics in a cooperative puzzle game setting, focusing on interactions between unfamiliar participants.
-
+This paper introduces CritterEscape, an immersive collaborative puzzle game with asymmetric roles in both VR and AR. This project builds upon the foundational research presented in our paper: [Exploring Asymmetric Collaboration in VR vs. AR: A Study of Immersive Puzzle Game Design](https://ieeexplore.ieee.org/document/10937399). This study expanded the design that enables a direct comparison of how VR and AR modalities affect user experience and cooperative behavior, allowing for systematic observation of how each medium’s characteristics modulate social interaction under consistent task conditions. Specifically, we investigate how immersive VR and AR environments influence social presence, task engagement, and collaborative dynamicsin a cooperative puzzle game setting, focusing particularly on interactions between unfamiliar participants.
 
 ## 🎮 Game Overview
 
 **CritterEscape** is a multiplayer educational game designed to increase student learning motivation through social interaction. Players take on distinct roles—Zeke 🦊 and Yuki 🐰—and must communicate effectively to complete collaborative tasks. It consists of three mini-games of varying difficulty levels, based on an escape-room mechanism, in which students collaborate to solve puzzles and progress to the next game. The puzzles primarily involve STEM knowledge, aiming to promote critical thinking and problem-solving skills.
-
-
-
-## 🕹️ Supported Platforms
-
-**CritterEscape** supports both VR and AR platforms:
-
-- **VR Version**
-  - Built with `Unity XR Interaction Toolkit (XRI)`
-  - Multiplayer powered by `Photon Fusion` networking framework
-
-- **AR Version**
-  - Built with `Meta SDK`
-  - Multiplayer powered by `Mirror` networking framework
 
 <p align="center">
   <img src="Images/VROverview.png" alt="VR Overview" width="48%" />
@@ -60,7 +43,6 @@ Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen Fan, Boon Gii
 <p align="center">
   <b>Left:</b> VR Overview &nbsp;&nbsp; | &nbsp;&nbsp; <b>Right:</b> AR Overview
 </p>
-
 
 ## 🧩 Mini-Games & Collaboration Mechanics
 
@@ -75,16 +57,27 @@ This game includes three collaborative mini-games used in the VR/AR study:
 - **Mini-Game 3: Shape Alignment Puzzle**  
   Visual asymmetry: each player sees unique parts of the solution and must communicate.
 
+## 🕹️ Supported Platforms
+
+**CritterEscape** supports both VR and AR platforms:
+
+- **VR Version**
+  Built with `Unity XR Interaction Toolkit (XRI)` and `Photon Fusion` networking framework
+
+- **AR Version**
+  Built with `Meta SDK` and `Mirror` networking framework
+
+
 
 ## ✅ User Manual
 
-### VR Version
-For detailed setup instructions and requirements for the VR version, please see:  
-[CritterEscape-VR/README.md](CritterEscape-VR/README.md)
+> **VR Version**  
+> Detailed requirements and setup instructions:  
+> [CritterEscape-VR/README.md](CritterEscape-VR/README.md)
 
-### AR Version
-For detailed setup instructions and requirements for the AR version, please see:  
-[CritterEscape-AR/README.md](CritterEscape-AR/README.md)
+> **AR Version**  
+> Detailed requirements and setup instructions:  
+> [CritterEscape-AR/README.md](CritterEscape-AR/README.md)
 
 
 ## 🌟 Citation
