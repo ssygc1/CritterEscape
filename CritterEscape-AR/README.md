@@ -24,24 +24,31 @@
 
 ## In-Game Setup
 
-- **Spatial Anchors**
-    - Both players use **pinch gestures** to place two spatial anchors at the **same physical location**
-    - Use the Right Hand Pinch Pose (pinch the right thumb and right index finger together).
-    - Create two anchors, as shown in the image below. 
-> Explanations:
-> The first anchor represents the (0, 0) coordinates for the x and z axes.
-> The first and second anchors together ensure consistent rotation
-> throughout the game.
+### 1. Spatial Anchors
+
+Both players place **two spatial anchors** at the **same physical location** using **pinch gestures**.
+
+**Gesture:** Right Hand Pinch (touch right thumb and index finger together).
+
+**Anchor Placement:**
+
+- **First Anchor:** Defines the origin `(0, 0)` for the x and z axes.
+- **Second Anchor:** Works with the first anchor to ensure consistent rotation throughout the game.
 
 <p align="center">
   <img src="../Images/Anchor.png" width="50%" />
-</p
+</p>
 
+> **Tip:** Proper placement of both anchors ensures that both players share the same coordinate system and orientation.
 
-- **Network Connection**
-  - Ensure both devices are connected to the **same local network (LAN)**
-  - One player presses the **Create Room**button on the panel 
-  - The other player will **automatically join** the room once it is created
+### 2. Network Connection
+
+Ensure both devices are on the **same local network (LAN)**.
+
+**Steps:**
+
+1. One player presses **Create Room** on the game panel.
+2. The other player **automatically joins** once the room is created.
 
 
 ## Interaction Guide
