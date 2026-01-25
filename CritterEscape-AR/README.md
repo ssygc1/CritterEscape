@@ -10,7 +10,7 @@
 - **Stable Wi-Fi network** (Required for multiplayer)
 
 ### Software
-- **Unity 2022.3.62f1** (Recommeneded. Newer Unity Editor versions may introduce compatibility issues and require manual fixes.)
+- **Unity 2022.3.52f1** (Recommeneded. Newer Unity Editor versions may introduce compatibility issues and require manual fixes.)
 - **Meta Horizon Link**
 - **Blender**  (If Blender is not installed, some 3D models may lose their meshes.)
 
