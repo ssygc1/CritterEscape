@@ -67,6 +67,8 @@ This game includes three collaborative mini-games used in the VR/AR study:
 > **Setup & Requirements:**  
 > [CritterEscape-AR/README.md](CritterEscape-AR/README.md)
 
+> ### Tip
+> For **multiplayer game testing** in Unity's Play Mode, you can use [ParrelSync](https://github.com/VeriorPies/ParrelSync) to run multiple instances of the game simultaneously.
 
 ## 🌟 Citation 
 If you are interested in our work, please consider giving a 🌟 and citing our work below.
