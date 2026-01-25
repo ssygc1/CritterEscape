@@ -18,8 +18,9 @@ Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen Fan, Boon Gii
 - [Introduction](#-introduction)
 - [Game Overview](#-game-overview)
 - [Mini-Games & Collaboration Mechanics](#-mini-games--collaboration-mechanics)
-- [User Manual](#-User-Manual)
+- [User Manual](#-user-manual)
 - [Citation](#-citation)
+- [License](#-license)
 
 
 ## 📷 Introduction
@@ -82,3 +83,8 @@ If you are interested in our work, please consider giving a 🌟 and citing our 
   year         = {2026},
   url          = {https://ieeevr.org/2026/}
 }
+```
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
+
