@@ -21,22 +21,27 @@
 1. Go to: [Builds](/CritterEscape-VR/Builds)
 2. Connect each Quest 3 to a PC via Oculus / OpenXR platform, and enable **Quest Link** in the headset.
 3. Launch `STEM Game.exe` on **both PCs**.
+   
 <p align="center">
-  <img src="Images/Controllers.png" width="600" />
+  <img src="../Images/VR-Builds.png" width="50%" />
 </p>
+
 4. After launching, players will be initialized as **Zeke 🦊** and **Yuki 🐰** in the Lobby.
 5. When both players are in the Lobby, either player can point at **Start** and press **Trigger** to begin.
+   
 <p align="center">
-  <img src="Images/Controllers.png" width="600" />
+  <img src="../Images/VR-Lobby.png" width="50%" />
 </p>
+
 **Important note:**  
 To restart the game, ensure **all running instances are fully closed**, otherwise the server may prevent a new instance from joining the same room.
 
 
 ## Interaction Guide
 <p align="center">
-  <img src="Images/Controllers.png" width="600" />
+  <img src="../Images/Controllers.png" width="50%" />
 </p>
+
 - Movement
     - **Left Thumbstick (L1)** Move forward, backward, and sideways
 
