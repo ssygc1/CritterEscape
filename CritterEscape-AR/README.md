@@ -1,4 +1,4 @@
-# CritterEscape VR Version
+# CritterEscape AR Version
 ## Prerequisites
 
 ### Hardware
@@ -18,23 +18,40 @@
 ## Installation Instructions
 > This section assumes you are running the **prebuilt executable** version.
 
-1. Go to: [Builds](/Builds)
-2. Connect each Quest 3 to a PC via Oculus / OpenXR platform, and enable **Quest Link** in the headset.
-3. Launch `STEM Game.exe` on **both PCs**.
-4. After launching, players will be initialized as **Zeke 🦊** and **Yuki 🐰** in the Lobby.
-5. When both players are in the Lobby, either player can point at **Start** and press **Trigger** to begin.
+1. Go to: [Builds](/CritterEscape-AR/Builds)
+2. Copy the .apk file to the headset via USB
+3. Use the Mobile VR Station application to install the .apk file, please refer to https://www.youtube.com/watch?v=60_YqA-AmGk
 
-**Important note:**  
-To restart the game, ensure **all running instances are fully closed**, otherwise the server may prevent a new instance from joining the same room.
+## In-Game Setup
+
+- **Spatial Anchors**
+    - Both players use **pinch gestures** to place two spatial anchors at the **same physical location**
+    - Use the Right Hand Pinch Pose (pinch the right thumb and right index finger together).
+    - Create two anchors, as shown in the image below. 
+> Explanations:
+> The first anchor represents the (0, 0) coordinates for the x and z axes.
+> The first and second anchors together ensure consistent rotation
+> throughout the game.
+
+<p align="center">
+  <img src="../Images/Anchor.png" width="50%" />
+</p
+
+
+- **Network Connection**
+  - Ensure both devices are connected to the **same local network (LAN)**
+  - One player presses the **Create Room**button on the panel 
+  - The other player will **automatically join** the room once it is created
 
 
 ## Interaction Guide
 
-- Movement
-    - **Left Thumbstick (L1)** Move forward, backward, and sideways
+<p align="center">
+  <img src="../Images/Controllers.png" width="50%" />
+</p
 
-- Camera & Aiming
-    - **Right Thumbstick (L2)** Look around and aim without physical rotation
+- Movement
+    - Physical movement
 
 - Object Interaction
     - **Grip Buttons (L5 / R5)** Grab and manipulate objects
