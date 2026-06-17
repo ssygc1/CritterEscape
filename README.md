@@ -6,7 +6,7 @@ Lijie Zheng*, Guoyueyang Cheng*, Shaoteng Ke, Jiachen Yuan, Yuchen Fan, Boon Gii
 
 <p align='center'>
   <b>
-    <a href="https://0">Paper</a>
+    <a href="https://www.computer.org/csdl/proceedings-article/vr/2026/594500a420/2fmceP87ula">Paper</a> 
     |
     <a href="https://github.com/ssygc1/CritterEscape">Code</a> 
   </b>
